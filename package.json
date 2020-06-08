@@ -1,0 +1,25 @@
+{
+  "name": "Tailwind",
+  "version": "1.0.0",
+  "description": "Kapcsolat létrehozása",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bozsok/Tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bozsok/Tailwind/issues"
+  },
+  "homepage": "https://github.com/bozsok/Tailwind#readme",
+  "dependencies": {
+    "autoprefixer": "^9.8.0",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6"
+  }
+}
